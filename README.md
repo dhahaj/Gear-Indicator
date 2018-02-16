@@ -1,7 +1,2 @@
-"# Gear-Indicator" 
-Arduino Code for a motorcycle gear indicator 
-that displays the current gear on a 7-segment display.
-Gears are stored in eerpom for restoring on power up, and
-the neutal input should be modified for being active high or 
-low by replacing the "!" on the "bit_is_clear" code sections 
-inside the main loop.
+<h1>Motorcycle Gear-Indicator:<h1>
+<p><strong>Arduino</strong> Code for a motorcycle gear indicator that displays the current gear on a 7-segment display. Gears are stored in eerpom for restoring on power up, and the neutal input should be modified for being active high or low by replacing the "!" on the "bit_is_clear" code sections inside the main loop. If an active low input is needed, please ensure to enable the internal pullup resistor for that pin.</p>
